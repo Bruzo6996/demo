@@ -1,0 +1,48 @@
+#ht p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    position: absolute;
+}
+
+#ht:hover p {
+    display: block;
+}
+#img1{
+position: relative;
+  left: 500px;
+  top: 50px;
+  z-index: 0;
+  height: 400px;
+}
+#img2{
+position: absolute;
+  left: 509px;
+  top: 350px;
+  z-index: 2;
+  
+}
+ul{
+    list-style-type: none;
+    background-color: #0A1931;  
+    position: fixed;
+    border: 10px solid #0A1931;
+}
+ul li{
+    display: inline;
+    margin: 0px 100px 0px 100px;
+}
+a{
+    color: #FEDDBE;
+    padding: 20px;
+}
+ol li{
+    display: block;
+}
+@media screen and (max-width:425px) {
+    img1{
+        margin-left:-100px;
+    }
+    
+    
+}

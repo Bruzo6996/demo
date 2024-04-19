@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    background-image: url(/assets/uploads/images/portfolio-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    color: white;
+    background-color: transparent;
+
+}
+nav{
+   
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    margin-top: 10px;
+}
+nav a{
+    color: white;
+    text-align: justify;
+    padding-left: 100px;
+}
+nav a:hover{
+    color: green;
+    font-size: larger;
+
+}
+#pic{
+    float: right;
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+    z-index: 5;
+}
+#intro{
+    
+    margin-left: 150px;
+    font-size: 40px;
+    justify-content: center;
+}
+#about{
+    margin: 10px 50px;
+}
+#about h1{
+    margin: 20px;
+    font-size: 40px;}
+#team{
+    display: flex;
+    justify-content: center;  
+}
+#team img:hover{
+    border: 2px solid black;
+    opacity: 0.5;
+    
+}
+h1{
+    margin-left: 80px;
+    font-size: 40px;
+}
+#team img{ 
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+
+}
+#icon {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#icon i{
+    padding: 10px;
+    background-color: black;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+#whole{
+    background-color: #333333  ;
+    color: #fff;
+}
+.navbar{
+    padding: 10px;
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+}
+.navbar li{
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.navbar li a{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: gainsboro;
+}
+.navbar li a:hover{
+    color: gold;
+    text-decoration: underline ;
+}
+#image{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+#image img{
+    width: 200px;
+    height: 200px;
+}
+#intro{
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+#intro h1{
+    color: white;
+    font-size: 80px;
+    background: none;
+    background-color: transparent;
+}
+div h1{
+    font-size: 50px;
+    margin-left: 50px;
+    color: goldenrod;
+}
+#about p{
+    
+    margin: 30px;
+    text-align: justify;
+
+}
+#table{
+    border: 3px solid gray;
+    border-collapse: collapse;
+    padding: 40px;
+}
+div table td p{
+    padding-top: 10px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#contact i{
+    padding: 10px;
+    size: 100px;
+}
+#projects li{
+    margin-left: 80px;
+}
+#skills {
+    display: flex;
+    justify-content: center;
+}
+#skills img {
+    width: 150px;
+    padding: 10px;
+}
+#skills img:hover{
+    opacity: 0.5;
+}

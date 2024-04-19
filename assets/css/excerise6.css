@@ -1,0 +1,42 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+}
+.a1{
+    background-color: yellow;
+    border: 2px double black;
+}
+.a2{
+    background-color: darkgreen;
+    border: 2px solid black;
+}
+.a3{
+    background-color: aqua;
+    padding: 10px; 
+    border: 2px double red;
+}
+.a4{
+    width: 150px;
+    border: 3px solid black;
+    padding: 7px;
+    margin: 0px;
+}
+.a5{
+    width: 150px; 
+    border: 10px solid yellow; 
+    padding: 0px ;
+    margin: 0px;
+    outline-style:  solid ;
+    outline-color: aqua;
+    margin-left: 172px;
+    margin-top: -170px;
+
+}
+.a6{
+    width: 150px; 
+    border: 10px solid green; 
+    padding: 0px ;
+    margin: 7px; 
+    margin-left: 350px;
+    margin-top: -170px;
+}

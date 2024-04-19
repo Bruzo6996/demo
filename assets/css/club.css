@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: justify;
+}
+a:link,a:visited{
+    color: orange;
+    font-weight: bolder;
+}
+#nav{
+    background-color: black;
+}
+#path{
+    font-size: 15px;
+    margin-left: 12%;
+}
+#second,#stories,#love,#one,#last{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+#image{
+    width: 320px; 
+    height: 310px; 
+    overflow: hidden; 
+    position: relative;
+    margin: 4px; 
+    display: inline-block;
+}
+#zoom-image {
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.3s ease; 
+    transform-origin: center; 
+}
+#zoom-image:hover {
+    transform: scale(1.1);
+}
+#shade{
+    filter: grayscale(100%);
+    width: 260px;
+}
+#shade:hover{
+    filter: grayscale(0%);
+}
+#bottom{
+    position: relative;
+}
+#bottomitem1{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+}
+#bottomitem2{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+#click{
+    width: 200px;
+    height: 150px;
+}
+#con{
+    background-image: url(/assets/uploads/images/nature.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 40px 0px 160px ;
+}
+#con1{
+    max-width: 570px;
+    position: absolute; 
+    bottom: 45px; 
+    left: 110px; 
+    background-color: whitesmoke;
+}
+#click:hover{
+    background: linear-gradient(135deg, rgba(152, 188, 63, 1) 0%, rgba(19, 160, 203, 1) 100%);
+}
+#know{
+    width: 360px;
+}
+#cardbody{
+    height: 200px;
+}
+#cardbody p{
+    padding-top: 5%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 769px) and (min-width:426px){
+  #con img{
+    width: 680px;
+    height: 600px;
+    margin-bottom: 300px;
+    margin-left: 10px; 
+}
+#con1{
+    max-width: 465px;
+    left: 97px;
+    top: 195px;
+    padding: 10px;
+    height: 440px;
+}
+#image{
+    width: 200px;
+    height: 250px;
+    border: none;
+    border-radius: 0%;
+}
+ #zoom-image{
+    margin: 10px;
+ } 
+ #shade{
+    width: 260px;
+    padding: 5px;
+ }
+ #know{
+    width: 300px;
+}
+#cardbody{
+    height: 210px;
+}
+}
+
+@media screen and (max-width: 426px) {
+    #con img{
+        width: 370px;
+        height: 400px;
+        margin-bottom: 300px;
+        margin-left: 10px;
+        
+    }
+    #con1{
+        max-width: 330px;
+        left: 40px;
+        top: 130px;
+        padding: 10px;
+    }
+    #con1{
+      margin-left: 0px;
+    }
+    #inlineFormInputGroupUsername{
+      font-size: 12px;
+    }
+    #inlineFormSelectPref{
+      font-size: 12px;
+    }
+    #second,#stories,#love{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #shade{
+        width: 270px;
+        margin-left: 40px;
+    }
+    #know{
+        width: 800px; 
+        padding-right: 50px;
+        
+    }
+    #cardbody{
+        height: 230px;
+    }
+    #left{
+        padding-left: 5px;
+    }
+    #smalltext{
+        padding-left: 15%;
+    }
+}
+#inlineFormInputGroupUsername{
+  font-size: 12px;
+}
+#inlineFormSelectPref{
+  font-size: 12px;
+}
+

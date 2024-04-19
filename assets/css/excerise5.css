@@ -1,0 +1,26 @@
+*{
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+#a{
+    width: 25%;
+    text-align:center ;
+    background-color: green;
+    color: white;
+}
+#a1{
+    width: 25%;
+    text-align:center ;
+    color: white;
+}
+#a2{
+    width: 25%;
+}
+#a3{
+    width: 50%;
+}
+#a4{
+    background-color: green;
+    width: 30%;
+}

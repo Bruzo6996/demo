@@ -1,0 +1,14 @@
+body{
+    color: yellowgreen;
+    background-color: green;
+}
+.a1{
+    width: 80%;
+    height: 5px;
+    background-color: gray;
+}
+.a2{
+    width: 50%;
+    height: 5px;
+    background-color: gray;
+}

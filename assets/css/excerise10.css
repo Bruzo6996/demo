@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+h1 {
+    background-color: red;
+    
+}
+#sec1 img{
+    float: left;
+}
+#sec2 img{
+    float: right;
+}
+#sec1 img,#sec2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#sec1 p,#sec2 p{
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}

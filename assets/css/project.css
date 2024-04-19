@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: violet;
+    background-color: aqua;
+}
+.url{
+    /* background-image: url(/assets/uploads/images/doramon.jpg); */
+    height: 500px;
+    width: 500px;
+   background-size: cover;
+    background-attachment: fixed;
+    background-position: right top;
+    opacity: 1;
+    background-repeat: repeat;
+    
+    background-image: ;
+}
+.border{
+    border: 4px solid greenyellow;
+    width: 400px;
+    padding: 50px;
+    margin: 80px;
+   border-radius: 10%;
+    text-align: justify;
+}
+.tyui{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.div{
+    text-align: justify;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    margin-top: 50px;
+}
+img{
+    background-image: url(/assets/uploads/images/doramon.jpg);
+}
